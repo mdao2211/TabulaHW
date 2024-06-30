@@ -1,0 +1,16 @@
+{
+  "version": 3,
+  "sourceRoot": "",
+  "sources": [
+    "../scss/base/_reset.scss",
+    "../scss/layouts/_header.scss",
+    "../scss/helpers/_var.scss",
+    "../scss/helpers/_mixin.scss",
+    "../scss/layouts/_carousel.scss",
+    "../scss/layouts/_list.scss",
+    "../scss/layouts/_course.scss"
+  ],
+  "names": [],
+  "mappings": "AAAA;EACI;EACA;EACA;EACA;;;ACJJ;EACI;EACA;EACA;;AAEA;EACI;;AAKI;EACI;;AAEA;EACI;EACA;EACA;EACA;EACA;EACA;;AAEA;EACI,OCvBd;;AD2BM;EEfZ;EACA;EACA,kBDdM;ECeN;;AAdA;EACI;EACA;EACA;EACA;;AAEA;EACI,ODRF;;ACiBN;EACI;EACA,ODnBE;ECoBF;;;AClBJ;EACI;EACA;;AAGJ;EACI;EACA;EACA;;AAGI;EACI,OFdN;EEeM;;AAGJ;EACI;EACA;;AAIR;EACI;;AAKR;EACI;EACA;EACA;;;ACjCR;EACI;EACA;;AAGI;EACI;EACA;;AAEA;EACI;EACA;EACA;EACA;;AAEA;EACI;EACA,OHjBV;EGkBU;;AAGJ;EACI;EACA;;AAGJ;EACI;;AAOhB;EACI;EACA;EACA;;;ACrCR;EACI;EACA;EACA;EACA;EACA;;AAEA;EACI;EACA;EAEA;;AAGI;EACI;EACA;;AAGJ;EACI;EACA,OJrBN;;AI0BN;EHdA;EACA;EACA,kBDdM;ECeN;EGaI;EACA;;AH5BJ;EACI;EACA;EACA;EACA;;AAEA;EACI,ODRF;;ACiBN;EACI;EACA,ODnBE;ECoBF;;AGYJ;EACI;EACA;EACA",
+  "file": "style.css"
+}

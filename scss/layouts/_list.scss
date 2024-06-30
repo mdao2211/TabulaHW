@@ -1,0 +1,40 @@
+.list {
+  padding-top: 50px;
+  background-color: #dcd1f3;
+
+  .container {
+    .card-deck {
+      margin-top: 30px;
+      text-align: center;
+
+      .card {
+        border-radius: 10px;
+        transition: 0.5s all;
+        transition: transform 0.3s;
+        z-index: 3;
+
+        h5 {
+          text-transform: uppercase;
+          color: $color-1;
+          font-size: 0.8rem;
+        }
+
+        h3 {
+          font-size: 1.7rem;
+          font-weight: 700;
+        }
+
+        &:hover {
+          box-shadow: 5px 10px 15px rgba(22, 21, 21, 0.363);
+          //zoom in img
+        }
+      }
+    }
+  }
+
+  .list_bottom {
+    position: relative;
+    bottom: 300px;
+    z-index: 2;
+  }
+}

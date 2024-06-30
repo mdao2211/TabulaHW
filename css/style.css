@@ -1,0 +1,233 @@
+* {
+  font-size: 16px;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+header {
+  position: fixed;
+  width: 100%;
+  z-index: 1000;
+  background-color: white; /* Thêm màu nền */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Thêm bóng đổ nhẹ */
+}
+
+/* Thêm class mới để áp dụng khi cuộn */
+.navbar-scrolled {
+  background-color: white;
+  transition: background-color 0.3s ease;
+}
+header .navbar {
+  padding: 0;
+}
+header .navbar-collapse .navbar-nav .nav-item {
+  margin-right: 10px;
+}
+header .navbar-collapse .navbar-nav .nav-item a {
+  color: black;
+  text-decoration: none;
+  margin-right: 10px;
+  font-weight: 500;
+  transition: 0.3s all;
+  font-size: 0.9rem;
+}
+header .navbar-collapse .navbar-nav .nav-item a:hover {
+  color: #b61984;
+}
+header .navbar-collapse .navbar-nav .nav-item button {
+  border-radius: 20px;
+  border-style: none;
+  background-color: #b61984;
+  transition: 0.3s all !important;
+}
+header .navbar-collapse .navbar-nav .nav-item button a {
+  color: white;
+  font-weight: 400;
+  text-decoration: none;
+  transition: 0.3s all;
+}
+header .navbar-collapse .navbar-nav .nav-item button a:hover {
+  color: #b61984;
+}
+header .navbar-collapse .navbar-nav .nav-item button:hover {
+  background-color: white;
+  color: #b61984;
+  box-shadow: 0 0 0 1px #b61984;
+}
+
+.carousel .img_top {
+  position: absolute;
+  z-index: 3;
+}
+.carousel .container {
+  position: relative;
+  z-index: 4;
+  padding-top: 50px;
+}
+.carousel .container .carousel_left h5 {
+  color: #b61984;
+  font-size: 1.1rem;
+}
+.carousel .container .carousel_left h1 {
+  font-size: 3.5rem;
+  font-weight: bold;
+}
+.carousel .container .carousel_right {
+  width: 80%;
+}
+.carousel .img_bottom {
+  position: absolute;
+  bottom: -20px;
+  z-index: 3;
+}
+
+.list {
+  padding-top: 50px;
+  background-color: #dcd1f3;
+}
+.list .container .card-deck {
+  margin-top: 30px;
+  text-align: center;
+}
+.list .container .card-deck .card {
+  border-radius: 10px;
+  transition: 0.5s all;
+  transition: transform 0.3s;
+  z-index: 3;
+}
+.list .container .card-deck .card h5 {
+  text-transform: uppercase;
+  color: #b61984;
+  font-size: 0.8rem;
+}
+.list .container .card-deck .card h3 {
+  font-size: 1.7rem;
+  font-weight: 700;
+}
+.list .container .card-deck .card:hover {
+  box-shadow: 5px 10px 15px rgba(22, 21, 21, 0.363);
+}
+.list .list_bottom {
+  position: relative;
+  bottom: 300px;
+  z-index: 2;
+}
+
+.course {
+  position: relative;
+  top: -300px;
+  z-index: 5;
+  background-color: white;
+  padding-top: 50px;
+}
+.course .course_content {
+  background-color: white;
+  box-shadow: 5px 10px 15px rgba(22, 21, 21, 0.363);
+  border-radius: 10px;
+}
+.course .course_content form h1 {
+  font-weight: bold;
+  margin: 30px 0;
+}
+.course .course_content form i {
+  width: 10%;
+  color: #b61984;
+}
+.course button {
+  border-radius: 20px;
+  border-style: none;
+  background-color: #b61984;
+  transition: 0.3s all !important;
+  padding: 10px 20px;
+  margin-top: 20px;
+}
+.course button a {
+  color: white;
+  font-weight: 400;
+  text-decoration: none;
+  transition: 0.3s all;
+}
+.course button a:hover {
+  color: #b61984;
+}
+.course button:hover {
+  background-color: white;
+  color: #b61984;
+  box-shadow: 0 0 0 1px #b61984;
+}
+.course .course_bottom {
+  position: relative;
+  bottom: 300px;
+  z-index: -1;
+} /*# sourceMappingURL=style.css.map */
+
+footer {
+  background-image: url("../img/footer_background.jpg");
+  background-size: cover;
+  background-position: center;
+  color: white;
+  padding: 50px 0 0; /* Giảm padding bottom xuống 0 */
+  position: relative;
+  margin-top: -1px; /* Thêm dòng này để loại bỏ khoảng hở nhỏ có thể xuất hiện */
+}
+
+footer::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(182, 25, 132, 0.9);
+}
+
+footer .container {
+  position: relative;
+  z-index: 1;
+}
+
+footer h4 {
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+footer ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+footer ul li {
+  margin-bottom: 10px;
+}
+
+footer a {
+  color: white;
+  text-decoration: none;
+}
+
+footer a:hover {
+  color: #f0f0f0;
+}
+
+footer .social-icons a {
+  margin-right: 10px;
+  font-size: 1.2em;
+}
+
+footer .form-control {
+  background-color: rgba(255, 255, 255, 0.1);
+  border: none;
+  color: white;
+}
+
+footer .btn-primary {
+  background-color: white;
+  color: #b61984;
+  border: none;
+  margin-top: 10px;
+}
+
+footer .btn-primary:hover {
+  background-color: #f0f0f0;
+}
